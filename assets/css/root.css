@@ -27,7 +27,7 @@
     --line-42: 42px;
     --line-56: 56px;
     --line-75: 75px;
-  
+
 }
 
 .fs-11 {
@@ -41,6 +41,7 @@
 .fs-15 {
     font-size: var(--fs-xsm-);
 }
+
 .fs-16 {
     font-size: var(--fs-xxsm-);
 }
@@ -60,6 +61,7 @@
 .fs-21 {
     font-size: var(--fs-xlg-);
 }
+
 .fs-32 {
     font-size: var(--fs-xxlg-);
 }
@@ -139,6 +141,3 @@
 .line-75 {
     line-height: var(--line-75);
 }
-
-
-

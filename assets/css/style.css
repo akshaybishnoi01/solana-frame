@@ -125,14 +125,74 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.mw_391 {
+  max-width: 391px;
+}
+.bulid_now_btn {
+  color: black;
+  border: 1px solid transparent;
+  background-color: #14F195;
+  padding: 12px 21px;
+  border-radius: 24px;
+  transition: .6s;
+}
+.bulid_now_btn:hover {
+  background-color: #fff;
+  color: #000;
+  animation: pulse 1s 1;
+  transition: .6s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
 
 
+.stack_exchange_btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 24px;
+  background-color: transparent;
+  padding: 12px 21px;
+  transition: .6s;
+}
 
+.stack_exchange_btn:hover {
+  background-color: #fff;
+  color: #000;
+  animation: pulse 1s 1;
+  transition: .6s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
 
-
-
-
-
+.ellipe_1 {
+  max-width: 633px;
+  height: 642px;
+  border-radius: 100px;
+  filter: blur(100px);
+  background-color: rgba(146, 94, 153, 0.3);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
 
 
 
