@@ -25,7 +25,7 @@
 .social-media {
     width: 26px;
     height: 16px;
-    background-color: #848895;
+    background-color: var(--gray-200);
     display: block;
 }
 
@@ -93,12 +93,12 @@
 
 .view-btn {
     padding: 12px 20px 14px 21px;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     border-radius: 24px;
 }
 
 .view-btn:hover {
-    box-shadow: 0px 0px 20px 1px white;
+    box-shadow: 0px 0px 20px 1px var(--white);
 }
 
 .view-btn:hover img {
@@ -106,7 +106,7 @@
 }
 
 .bottom-border {
-    border-bottom: 1px solid #878688;
+    border-bottom: 1px solid var(--gray-300);
 }
 
 .pb-31 {
@@ -131,12 +131,12 @@
 
 .latest-btn {
     padding: 1px 21px 3px 20px;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     border-radius: 24px;
 }
 
 .last-section-box {
-    background-color: #19161C;
+    background-color: var(--light-black);
     box-shadow: 0px 58px 80px 0px #00000029;
     border-radius: 14px;
     padding: 30px;
@@ -152,15 +152,15 @@
 
 .sign-btn {
     padding: 12px 20px;
-    background-color: #14F195;
+    background-color: var(--sky-100);
     border-radius: 40px;
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 .sign-btn:hover {
-    background-color: black !important;
-    border: 1px solid #14F195;
-    color: #14F195 !important;
+    background-color: var(--black) !important;
+    border: 1px solid var(--sky-100);
+    color: var(--sky-100) !important;
 }
 
 .pb-79 {
@@ -176,7 +176,7 @@
 }
 
 .media-btn {
-    border: 1px solid white;
+    border: 1px solid var(--white);
     padding: 12px 40px;
     border-radius: 24px;
 }
@@ -190,13 +190,21 @@
 }
 
 .min-box {
-    background-color: #19161C;
+    background-color: var(--light-black);
     border-radius: 12px;
     padding: 20px;
 }
 
 .pt-14 {
     padding-top: 14px;
+}
+.pt-60{
+    padding-top: 60px;
+
+} 
+.pb-60{
+    padding-bottom: 60px;
+
 }
 
 .Ellipse1 {
@@ -210,7 +218,7 @@
 }
 
 .latest-btn:hover {
-    box-shadow: 0px 0px 20px 1px white;
+    box-shadow: 0px 0px 20px 1px var(--white);
 }
 
 .latest-btn:hover img {
@@ -218,13 +226,13 @@
 }
 
 .media-btn:hover {
-    background: white !important;
-    color: black !important;
-    border: 1px solid black;
+    background: var(--white) !important;
+    color: var(--black) !important;
+    border: 1px solid var(--black);
 }
 
 .gradient-box {
-    background: linear-gradient(180deg, #19161C 0%, #000000 100%);
+    background: linear-gradient(180deg, var(--light-black) 0%, var(--black) 100%);
     height: 800px;
     top: 0;
 }
@@ -240,7 +248,7 @@
 @media (max-width:574.98px) {
     .input-text {
         padding: 13px 20px;
-        background: black !important;
+        background: var(--black) !important;
         border-radius: 40px;
     }
 }
@@ -266,7 +274,7 @@
     .input-box {
         padding: 9px 10px 9px 22px;
         border-radius: 40px;
-        background: black;
+        background: var(--black);
     }
 
     .pt-sm-133 {

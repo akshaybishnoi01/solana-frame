@@ -30,9 +30,14 @@
     --line-75: 75px;
 
     --black-denim:#000508;
+    --black:#000;
+    --light-black:#19161C;
     --gray-200:#848895;
     --gray-100:#C4C4C4;
+    --gray-300:#878688;
     --purple :#9945FF;
+    --sky-100:#14F195;
+    --white: #FFF;
     
 }
 .color-purple{
