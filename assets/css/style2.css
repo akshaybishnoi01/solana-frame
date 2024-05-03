@@ -98,7 +98,9 @@
 }
 
 .view-btn:hover {
-    box-shadow: 0px 0px 20px 1px var(--white);
+    background: var(--sky-100) !important;
+    color: var(--black) !important;
+    border: 1px solid var(--sky-100);    
 }
 
 .view-btn:hover img {
@@ -158,9 +160,9 @@
 }
 
 .sign-btn:hover {
-    background-color: var(--black) !important;
-    border: 1px solid var(--sky-100);
-    color: var(--sky-100) !important;
+    border: 1px solid var(--white);
+    background: var(--black);
+    color: var(--white) !important;            
 }
 
 .pb-79 {
@@ -217,18 +219,20 @@
     opacity: 1 !important;
 }
 
-.latest-btn:hover {
-    box-shadow: 0px 0px 20px 1px var(--white);
+.latest-btn:hover {    
+    background-color: var(--sky-100) !important;
+    border: 1px solid var(--sky-100);
+    color: var(--black) !important;
 }
 
 .latest-btn:hover img {
     transform: rotate(45deg);
 }
 
-.media-btn:hover {
-    background: var(--white) !important;
+.media-btn:hover {            
+    background: var(--sky-100) !important;
+    border: 1px solid var(--sky-100) !important;
     color: var(--black) !important;
-    border: 1px solid var(--black);
 }
 
 .gradient-box {
