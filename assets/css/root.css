@@ -12,6 +12,7 @@
     --fs-xl-: 38px;
     --fs-xxl-: 48px;
     --fs-xxxl-: 94px;
+
     --line-15: 15px;
     --line-21: 21px;
     --line-23: 23px;
@@ -27,7 +28,24 @@
     --line-42: 42px;
     --line-56: 56px;
     --line-75: 75px;
-  
+
+    --black-denim:#000508;
+    --gray-200:#848895;
+    --gray-100:#C4C4C4;
+    --purple :#9945FF;
+    
+}
+.color-purple{
+    color: var(--purple);
+}
+.gray-100{
+    color: var(--gray-100);
+}
+.black-denim{
+    background-color: var(--black-denim);
+}
+.gray-200{
+    color: var(--gray-200);
 }
 
 .fs-11 {
