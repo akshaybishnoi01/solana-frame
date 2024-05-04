@@ -5,6 +5,85 @@ function openNav() {
     document.body.classList.toggle("overflow_hidden");
     document.querySelector(".menu").classList.toggle("cross")
   }
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const y = new Date();
+let Year = y.getFullYear();
+document.getElementById("year2").innerHTML = Year
+=======
   $('.responsive').slick({
   dots: false,
   infinite: true,
@@ -37,3 +116,4 @@ function openNav() {
     },
   ]
 });
+>>>>>>> af6ae698005acba120c8bad7c70d76aa1d4946db

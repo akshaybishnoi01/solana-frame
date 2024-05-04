@@ -12,6 +12,7 @@
     --fs-xl-: 38px;
     --fs-xxl-: 48px;
     --fs-xxxl-: 94px;
+
     --line-15: 15px;
     --line-21: 21px;
     --line-23: 23px;
@@ -26,12 +27,36 @@
     --line-37: 37px;
     --line-42: 42px;
     --line-56: 56px;
+    --line-75: 75px;
+
+    --black-denim:#000508;
+    --black:#000;
+    --light-black:#19161C;
+    --gray-200:#848895;
+    --gray-100:#C4C4C4;
+    --gray-300:#878688;
+    --purple :#9945FF;
+    --sky-100:#14F195;
+    --white: #FFF;
+    
+}
+.color-purple{
+    color: var(--purple);
+}
+.gray-100{
+    color: var(--gray-100);
+}
+.black-denim{
+    background-color: var(--black-denim);
+}
+.gray-200{
+    color: var(--gray-200);
     --line-96: 96px;
 
 }
 
 .fs-11 {
-    font-size: var(--fs-10-);
+    font-size: var(--fs-11-);
 }
 
 .fs-12 {
