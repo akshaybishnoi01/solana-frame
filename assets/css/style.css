@@ -141,29 +141,17 @@
   background-color: #14F195;
   padding: 12px 21px;
   border-radius: 24px;
+  border: 1px solid transparent;
   transition: .6s;
 }
 
 .bulid_now_btn:hover {
-  background-color: #fff;
-  color: #000;
-  animation: pulse 1s 1;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
   transition: .6s;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  70% {
-    transform: scale(.9);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 
 
 .stack_exchange_btn {
@@ -178,23 +166,9 @@
 .stack_exchange_btn:hover {
   background-color: #fff;
   color: #000;
-  animation: pulse 1s 1;
   transition: .6s;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  70% {
-    transform: scale(.9);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 
 .ellipe_1 {
   max-width: 633px;
