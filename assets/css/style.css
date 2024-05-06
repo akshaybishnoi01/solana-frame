@@ -120,7 +120,7 @@
   display: none;
   position: absolute;
   right: 1px;
-  padding-left: 4px;
+  padding: 6px;
   background-color: #010002;
   opacity: 80%;
   width: 100%;
@@ -374,6 +374,14 @@
     left: 0%;
   }
 
+  .gap_85 {
+    gap: 85px !important;
+  }
+
+  .dropdown-content {
+    background-color: transparent;
+    padding: 2px;
+  }
 }
 
 @media (max-width:576px) {
